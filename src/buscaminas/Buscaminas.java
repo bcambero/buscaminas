@@ -14,6 +14,7 @@ public class Buscaminas {
                             {"0","2","mina","2","0"},
                             {"0","1","1","2","1"},
                             {"0","0","1","mina","1"}};
+        System.out.println();//dibujar el tablero con codigo ascii
         while(fin==false){
                 System.out.println("Introduzca la fila");
                 int filaIntroducida=sc.nextInt();
